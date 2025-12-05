@@ -1,0 +1,104 @@
+
+
+/* Centrar todo */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenedor de los botones */
+#contenedor {
+    margin-bottom: 20px;
+}
+
+/* Botón azul (Propina) */
+#btnPropina {
+    background: #0077ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 10px;
+}
+
+#btnPropina:hover {
+    background: #005ccc;
+}
+
+/* Botón verde (Refrescar) */
+#btnRefrescar {
+    background: #28a745;  /* verde */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#btnRefrescar:hover {
+    background: #1e7e34; /* verde más oscuro */
+}
+
+/* Boleta estilo recibo */
+#boleta {
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: left;
+    display: none; 
+}
+
+/* Título boleta */
+#boleta h3 {
+    margin-top: 0;
+    text-align: center;
+    border-bottom: 2px dashed #000;
+    padding-bottom: 10px;
+}
+
+/* Texto boleta */
+#textoBoleta {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ffooter {
+    margin-top: auto;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+
+    /* Eliminamos la caja */
+    background: none;
+    border: none;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto; /* ESTA LÍNEA LO EMPUJA AL FONDO */
+}
